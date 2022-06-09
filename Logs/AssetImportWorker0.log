@@ -1,0 +1,717 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.9f1 (108be757e447) revision 1084391'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.899; Version 2009; 64bit' Language: 'ru' Physical Memory: 16332 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\unity\2020.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/KDFX Team/Desktop/AR RGSU Campus test 1.0
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56285
+Successfully changed project path to: C:/Users/KDFX Team/Desktop/AR RGSU Campus test 1.0
+C:/Users/KDFX Team/Desktop/AR RGSU Campus test 1.0
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 50.68 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 1.76 ms.
+Initialize engine version: 2020.3.9f1 (108be757e447)
+[Subsystems] Discovering subsystems at path D:/unity/2020.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/KDFX Team/Desktop/AR RGSU Campus test 1.0/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 580 Series (ID=0x67df)
+    Vendor:   
+    VRAM:     8171 MB
+    Driver:   27.20.21002.112
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Initialize mono
+Mono path[0] = 'D:/unity/2020.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'D:/unity/2020.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/unity/2020.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56216
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unity/2020.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002068 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 42.95 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.168 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006067 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <f93bc12ce1034617aac9a18135b94276>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.822 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 1164 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.3 MB.
+System memory in use after: 61.3 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 1861.
+Total: 2.575600 ms (FindLiveObjects: 0.285200 ms CreateObjectMapping: 0.085400 ms MarkObjects: 2.082500 ms  DeleteObjects: 0.120900 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/RGSU_Campus/20210523_193027-removebg-preview_scaled.jpg
+  artifactKey: Guid(866d1c85adba466eaec5f0228ee340c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/RGSU_Campus/20210523_193027-removebg-preview_scaled.jpg using Guid(866d1c85adba466eaec5f0228ee340c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b09d74a4a2a281ba1ea8742ef87fd44') in 0.868874 seconds
+  Import took 0.872502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/RGSU_Campus/urt_scaled.jpg
+  artifactKey: Guid(0361302f8b464d60a73c071a0a2aff4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/RGSU_Campus/urt_scaled.jpg using Guid(0361302f8b464d60a73c071a0a2aff4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '341e6db286a27a9c3f64d04d73a99b14') in 0.013605 seconds
+  Import took 0.017038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/RGSU_Campus/20210523_1_scaled.jpg
+  artifactKey: Guid(4eb73be802e8494da1403324a2686233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/RGSU_Campus/20210523_1_scaled.jpg using Guid(4eb73be802e8494da1403324a2686233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '699a175f19882c3f9eda45d8ff99170c') in 0.007932 seconds
+  Import took 0.010676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/RGSU_Campus/rtr_scaled.jpg
+  artifactKey: Guid(7d452feedeaa47e5a676faf15bb6a09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/RGSU_Campus/rtr_scaled.jpg using Guid(7d452feedeaa47e5a676faf15bb6a09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd995f92bf86913dadc1324676b5f7bf') in 0.016039 seconds
+  Import took 0.019395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/RGSU_Campus/hj_scaled.jpg
+  artifactKey: Guid(aac89b3778fc42d0a60d1dfd6afc1678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/RGSU_Campus/hj_scaled.jpg using Guid(aac89b3778fc42d0a60d1dfd6afc1678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43666c0838327ab89f7415703011e74c') in 0.009625 seconds
+  Import took 0.012628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/RGSU_Campus/20210_scaled.jpg
+  artifactKey: Guid(e5393d9af32f4a47ab95f2357f32aaed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/RGSU_Campus/20210_scaled.jpg using Guid(e5393d9af32f4a47ab95f2357f32aaed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0238cfe55ce4216716e69a838cb85a4f') in 0.009158 seconds
+  Import took 0.014626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/RGSU_Campus/building2_scaled.jpg
+  artifactKey: Guid(ce236564015a4edd88510dfc6903af22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/RGSU_Campus/building2_scaled.jpg using Guid(ce236564015a4edd88510dfc6903af22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5523c3f5c0f22832965179d64df5f659') in 0.011326 seconds
+  Import took 0.014670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/RGSU_Campus/rtr2_scaled.jpg
+  artifactKey: Guid(65907e34e7f84721af34f1328af42a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/RGSU_Campus/rtr2_scaled.jpg using Guid(65907e34e7f84721af34f1328af42a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3a520e8e772f539aab92acc8bfe092a') in 0.011692 seconds
+  Import took 0.017174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 196.491314 seconds.
+  path: Assets/info.png
+  artifactKey: Guid(1e1cbd62367e1884fa1cb3042d95bab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/info.png using Guid(1e1cbd62367e1884fa1cb3042d95bab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '713a3e2696a11b060534ea199f8d3c3a') in 0.076125 seconds
+  Import took 0.080514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005875 seconds.
+  path: Assets/info.png
+  artifactKey: Guid(1e1cbd62367e1884fa1cb3042d95bab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/info.png using Guid(1e1cbd62367e1884fa1cb3042d95bab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '713a3e2696a11b060534ea199f8d3c3a') in 0.056639 seconds
+  Import took 0.060128 seconds .
+
+========================================================================
+Received Prepare
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 13.13 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 38.0 MB.
+System memory in use after: 38.1 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 1865.
+Total: 3.957300 ms (FindLiveObjects: 0.334100 ms CreateObjectMapping: 0.096500 ms MarkObjects: 3.423200 ms  DeleteObjects: 0.102300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 4176.028115 seconds.
+  path: Assets/навигаторы
+  artifactKey: Guid(dd0791a85f43e404d9f18bda736e41da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы using Guid(dd0791a85f43e404d9f18bda736e41da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d0b8fbbd3a7cf347472cee3b0413f42') in 0.002740 seconds
+  Import took 0.006634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.916172 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(42d508ec5c073b446b8f5a84768b8f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(42d508ec5c073b446b8f5a84768b8f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8386f4ab0a42d72e4c4c2925bab9653f') in 0.025956 seconds
+  Import took 0.029633 seconds .
+
+========================================================================
+Received Prepare
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 10.46 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 38.9 MB.
+System memory in use after: 38.4 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 1866.
+Total: 4.267100 ms (FindLiveObjects: 0.324600 ms CreateObjectMapping: 0.089300 ms MarkObjects: 3.146300 ms  DeleteObjects: 0.705400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1283.077048 seconds.
+  path: Assets/навигаторы/Materials
+  artifactKey: Guid(fb47184573fe1ea4598115d3aaef4d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы/Materials using Guid(fb47184573fe1ea4598115d3aaef4d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28157783e952f0d8f67f8145869f2319') in 0.002593 seconds
+  Import took 0.006570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.064832 seconds.
+  path: Assets/навигаторы/Materials/info.mat
+  artifactKey: Guid(0257eecd0fe233a4789adcc785ff0a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы/Materials/info.mat using Guid(0257eecd0fe233a4789adcc785ff0a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e98539016d4e633d8126c9e12c5d88d6') in 0.248090 seconds
+  Import took 0.251791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5532.955610 seconds.
+  path: Assets/навигаторы 1
+  artifactKey: Guid(77b545ca97325fe40a560a419849b319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы 1 using Guid(77b545ca97325fe40a560a419849b319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16898d1871ed1cbe58853799ee01fb25') in 0.002643 seconds
+  Import took 0.005867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000907 seconds.
+  path: Assets/навигаторы 1
+  artifactKey: Guid(77b545ca97325fe40a560a419849b319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы 1 using Guid(77b545ca97325fe40a560a419849b319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16898d1871ed1cbe58853799ee01fb25') in 0.002117 seconds
+  Import took 0.004583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.620506 seconds.
+  path: Assets/навигаторы 1/КПП QR Code
+  artifactKey: Guid(5b3bcc37e89c5224b96fe9c64b5e54cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы 1/КПП QR Code using Guid(5b3bcc37e89c5224b96fe9c64b5e54cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc980ea8838a03971d4b03865e506bdf') in 0.002500 seconds
+  Import took 0.005375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001025 seconds.
+  path: Assets/навигаторы 1/КПП QR Code
+  artifactKey: Guid(5b3bcc37e89c5224b96fe9c64b5e54cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы 1/КПП QR Code using Guid(5b3bcc37e89c5224b96fe9c64b5e54cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc980ea8838a03971d4b03865e506bdf') in 0.002154 seconds
+  Import took 0.004851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019897 seconds.
+  path: Assets/навигаторы 1/КПП QR Code/info 23.png
+  artifactKey: Guid(c09834193916e134ea3f6812442c4ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы 1/КПП QR Code/info 23.png using Guid(c09834193916e134ea3f6812442c4ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a02157f881c3dc2beac9fc2890e0a1c') in 0.132911 seconds
+  Import took 0.135885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/навигаторы 1/КПП QR Code/info 25.png
+  artifactKey: Guid(5bf3541ac80ab1e49bdddefbc21c5543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы 1/КПП QR Code/info 25.png using Guid(5bf3541ac80ab1e49bdddefbc21c5543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68af52d2127d0aec1272e3d97b950b02') in 0.050035 seconds
+  Import took 0.052677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/навигаторы 1/КПП QR Code/info 26.png
+  artifactKey: Guid(8971d4ce106e94e47857ae1b72b237eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы 1/КПП QR Code/info 26.png using Guid(8971d4ce106e94e47857ae1b72b237eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55b1ea29d97bb55c2aee63860bf203b4') in 0.044091 seconds
+  Import took 0.046962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/навигаторы 1/КПП QR Code/info 27.png
+  artifactKey: Guid(5b634a919478c4045a177476720910fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы 1/КПП QR Code/info 27.png using Guid(5b634a919478c4045a177476720910fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d541071210203daba3f4f0fb6f96d82') in 0.049938 seconds
+  Import took 0.053226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000440 seconds.
+  path: Assets/навигаторы 1/КПП QR Code/info 24.png
+  artifactKey: Guid(8d6684458cf806d45a76868d85c8bf02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы 1/КПП QR Code/info 24.png using Guid(8d6684458cf806d45a76868d85c8bf02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b8ae37dc21d41b62f48055fd4101fc8') in 0.050662 seconds
+  Import took 0.054037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1218.679000 seconds.
+  path: Assets/навигаторы
+  artifactKey: Guid(77b545ca97325fe40a560a419849b319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы using Guid(77b545ca97325fe40a560a419849b319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '457341511736b468adc0c3f09c48e5ff') in 0.002351 seconds
+  Import took 0.005431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 469.159928 seconds.
+  path: Assets/навигаторы/Перекрёсток QR Code
+  artifactKey: Guid(daf7dad763924e549b66d012c2248058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы/Перекрёсток QR Code using Guid(daf7dad763924e549b66d012c2248058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e47e46f9492fc687af71e1cab5a87102') in 0.002498 seconds
+  Import took 0.005651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000558 seconds.
+  path: Assets/навигаторы/Перекрёсток QR Code
+  artifactKey: Guid(daf7dad763924e549b66d012c2248058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы/Перекрёсток QR Code using Guid(daf7dad763924e549b66d012c2248058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e47e46f9492fc687af71e1cab5a87102') in 0.002246 seconds
+  Import took 0.005052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.057376 seconds.
+  path: Assets/навигаторы/Перекрёсток QR Code/info 48.png
+  artifactKey: Guid(ed5a0cfcabbdbdd48861b0fa891c04c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы/Перекрёсток QR Code/info 48.png using Guid(ed5a0cfcabbdbdd48861b0fa891c04c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07209225cec9736bd5ed4e79072e796a') in 0.051414 seconds
+  Import took 0.054413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/навигаторы/Перекрёсток QR Code/info 49.png
+  artifactKey: Guid(19007366467f4ac448071c1984c64173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы/Перекрёсток QR Code/info 49.png using Guid(19007366467f4ac448071c1984c64173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aaad0ab929cc255e742f80e877807f8') in 0.051212 seconds
+  Import took 0.054393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/навигаторы/Перекрёсток QR Code/info 50.png
+  artifactKey: Guid(82472551e2f47f94eb106c1b948d9327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы/Перекрёсток QR Code/info 50.png using Guid(82472551e2f47f94eb106c1b948d9327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2237fee259a229697f678ee7582f22f8') in 0.050896 seconds
+  Import took 0.053573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/навигаторы/Перекрёсток QR Code/info 52.png
+  artifactKey: Guid(40742c9d80249114f96edcd6b5a8e89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы/Перекрёсток QR Code/info 52.png using Guid(40742c9d80249114f96edcd6b5a8e89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '485b21e881637b5b1fff2334a68182a7') in 0.051121 seconds
+  Import took 0.053805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/навигаторы/Перекрёсток QR Code/info 51.png
+  artifactKey: Guid(5c4167b91b9f8264d822bd11325cc357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы/Перекрёсток QR Code/info 51.png using Guid(5c4167b91b9f8264d822bd11325cc357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d340c8e472e12d9be0d22670fb0a1c') in 0.030882 seconds
+  Import took 0.033586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/навигаторы/Перекрёсток QR Code/info 51.png
+  artifactKey: Guid(5c4167b91b9f8264d822bd11325cc357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы/Перекрёсток QR Code/info 51.png using Guid(5c4167b91b9f8264d822bd11325cc357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d340c8e472e12d9be0d22670fb0a1c') in 0.029342 seconds
+  Import took 0.032405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 374.445763 seconds.
+  path: Assets/навигаторы/Выход ВП8 QR Code
+  artifactKey: Guid(db6f9fff8af141a4c9765f7236ac44da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы/Выход ВП8 QR Code using Guid(db6f9fff8af141a4c9765f7236ac44da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a855f2a8453c97dd30294a6ca583aba5') in 0.002545 seconds
+  Import took 0.005898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000784 seconds.
+  path: Assets/навигаторы/Выход ВП8 QR Code
+  artifactKey: Guid(db6f9fff8af141a4c9765f7236ac44da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы/Выход ВП8 QR Code using Guid(db6f9fff8af141a4c9765f7236ac44da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a855f2a8453c97dd30294a6ca583aba5') in 0.002335 seconds
+  Import took 0.004937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056516 seconds.
+  path: Assets/навигаторы/Выход ВП8 QR Code/info 43.png
+  artifactKey: Guid(1cde0d5659e03fc439388152fc3b2d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы/Выход ВП8 QR Code/info 43.png using Guid(1cde0d5659e03fc439388152fc3b2d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e36bb2199ff456f6644a36176e70ee8c') in 0.048977 seconds
+  Import took 0.052264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/навигаторы/Выход ВП8 QR Code/info 44.png
+  artifactKey: Guid(a8cca81f6117a474886c5dc78d26d219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы/Выход ВП8 QR Code/info 44.png using Guid(a8cca81f6117a474886c5dc78d26d219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b12e8d0981aced3bd2620d108051bb') in 0.050706 seconds
+  Import took 0.053444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/навигаторы/Выход ВП8 QR Code/info 46.png
+  artifactKey: Guid(500b7d051728de64c8bdebb7635944a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы/Выход ВП8 QR Code/info 46.png using Guid(500b7d051728de64c8bdebb7635944a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b3cf135fb34de74ea642c3aad54662') in 0.029195 seconds
+  Import took 0.031821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/навигаторы/Выход ВП8 QR Code/info 47.png
+  artifactKey: Guid(3f75a5bee46f9374690ab26c31dbdd8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы/Выход ВП8 QR Code/info 47.png using Guid(3f75a5bee46f9374690ab26c31dbdd8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58bc36735c726a92985357cf4df59d2b') in 0.048550 seconds
+  Import took 0.051270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/навигаторы/Выход ВП8 QR Code/info 45.png
+  artifactKey: Guid(ec555568ffdfe8d43980319b13ee4626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы/Выход ВП8 QR Code/info 45.png using Guid(ec555568ffdfe8d43980319b13ee4626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5552756e5ed3c5047d6ab5c9d2f7c63') in 0.048425 seconds
+  Import took 0.050980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 169.144998 seconds.
+  path: Assets/навигаторы/Выход ВП5 QR Code
+  artifactKey: Guid(0f51f31ba6b16884599cbfdd81775c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы/Выход ВП5 QR Code using Guid(0f51f31ba6b16884599cbfdd81775c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a83b0b648f559947452a936440df68fd') in 0.002544 seconds
+  Import took 0.005606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.094788 seconds.
+  path: Assets/навигаторы/Выход ВП5 QR Code/info 7.png
+  artifactKey: Guid(640337418a87ad54784f3c32fa1d5b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы/Выход ВП5 QR Code/info 7.png using Guid(640337418a87ad54784f3c32fa1d5b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd358b348233ec718c598a146f1b79708') in 0.047355 seconds
+  Import took 0.050366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/навигаторы/Выход ВП5 QR Code/info 21.png
+  artifactKey: Guid(7be377c262dfec54287876c1d879e085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы/Выход ВП5 QR Code/info 21.png using Guid(7be377c262dfec54287876c1d879e085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7507c7a6c45fb38ed69a5c2512824d88') in 0.048064 seconds
+  Import took 0.051279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/навигаторы/Выход ВП5 QR Code/info 13.png
+  artifactKey: Guid(d4f92d41783a76542b2e7d5880dc1516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы/Выход ВП5 QR Code/info 13.png using Guid(d4f92d41783a76542b2e7d5880dc1516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b660aaf82ffb4a1d9ddd745500551ac0') in 0.029037 seconds
+  Import took 0.031804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/навигаторы/Выход ВП5 QR Code/info 16.png
+  artifactKey: Guid(e8fbbc788edf60a44bdcdcc6a0ec4dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы/Выход ВП5 QR Code/info 16.png using Guid(e8fbbc788edf60a44bdcdcc6a0ec4dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8c9104ff87ff3756a2d23d4a3ef2c73') in 0.047775 seconds
+  Import took 0.050686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/навигаторы/Выход ВП5 QR Code/info 13.png
+  artifactKey: Guid(d4f92d41783a76542b2e7d5880dc1516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы/Выход ВП5 QR Code/info 13.png using Guid(d4f92d41783a76542b2e7d5880dc1516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b660aaf82ffb4a1d9ddd745500551ac0') in 0.028912 seconds
+  Import took 0.031644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/навигаторы/Выход ВП5 QR Code/info 19.png
+  artifactKey: Guid(a1be11e2116d41a47befbc6de2e7eccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы/Выход ВП5 QR Code/info 19.png using Guid(a1be11e2116d41a47befbc6de2e7eccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbed201dad012cec084f1e201814541f') in 0.048640 seconds
+  Import took 0.051763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 70.601555 seconds.
+  path: Assets/навигаторы/Выход ВП3 QR Code
+  artifactKey: Guid(2857818efd395704caf590e355c32bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы/Выход ВП3 QR Code using Guid(2857818efd395704caf590e355c32bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eb7d9056de177d1c6c0fec6444c4d83') in 0.002564 seconds
+  Import took 0.005432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.082805 seconds.
+  path: Assets/навигаторы/Выход ВП3 QR Code/info 38.png
+  artifactKey: Guid(74a7533d23aeb1242b2c7121ee9b40e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы/Выход ВП3 QR Code/info 38.png using Guid(74a7533d23aeb1242b2c7121ee9b40e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a116ca294e262d7a3ec43dff8f274cd') in 0.044953 seconds
+  Import took 0.047915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/навигаторы/Выход ВП3 QR Code/info 42.png
+  artifactKey: Guid(2ae2b30bfaa60cf4d92096ef31b16e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы/Выход ВП3 QR Code/info 42.png using Guid(2ae2b30bfaa60cf4d92096ef31b16e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48a056f1c79f83b7872aecf463e23bf3') in 0.045008 seconds
+  Import took 0.047855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/навигаторы/Выход ВП3 QR Code/info 41.png
+  artifactKey: Guid(1159df4fa871fba4e9b854327da20386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы/Выход ВП3 QR Code/info 41.png using Guid(1159df4fa871fba4e9b854327da20386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b472cea5b241ec01261f608e346de71') in 0.030067 seconds
+  Import took 0.033100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/навигаторы/Выход ВП3 QR Code/info 40.png
+  artifactKey: Guid(5cfd7d4878dc1e746ab20f036a424d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы/Выход ВП3 QR Code/info 40.png using Guid(5cfd7d4878dc1e746ab20f036a424d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a71f19a8673d705d7e49c542bc5524b') in 0.049534 seconds
+  Import took 0.052205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/навигаторы/Выход ВП3 QR Code/info 39.png
+  artifactKey: Guid(0d739fbbb2d33dc4c98d94d6815226db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы/Выход ВП3 QR Code/info 39.png using Guid(0d739fbbb2d33dc4c98d94d6815226db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '704827764522819abf5584beee255bb4') in 0.050864 seconds
+  Import took 0.053571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 98.974737 seconds.
+  path: Assets/навигаторы/Выход ВП2 QR Code
+  artifactKey: Guid(73e5e340bfa48bc43842d3ec086f3978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы/Выход ВП2 QR Code using Guid(73e5e340bfa48bc43842d3ec086f3978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2379a204a53d78078429d97979b784cf') in 0.002665 seconds
+  Import took 0.005533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.094814 seconds.
+  path: Assets/навигаторы/Выход ВП2 QR Code/info 33.png
+  artifactKey: Guid(487dedb85290ca441a729f1aa55397dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы/Выход ВП2 QR Code/info 33.png using Guid(487dedb85290ca441a729f1aa55397dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be0290fe26898cf317f73ea08650dd59') in 0.045654 seconds
+  Import took 0.048685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/навигаторы/Выход ВП2 QR Code/info 36.png
+  artifactKey: Guid(9c6e8df6c72b86942aa18a921647d1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы/Выход ВП2 QR Code/info 36.png using Guid(9c6e8df6c72b86942aa18a921647d1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '854a1696487a724ef84e8e776561437f') in 0.028813 seconds
+  Import took 0.031620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/навигаторы/Выход ВП2 QR Code/info 37.png
+  artifactKey: Guid(ab917e91977cce245b2f34a98d2bd1b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы/Выход ВП2 QR Code/info 37.png using Guid(ab917e91977cce245b2f34a98d2bd1b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '975b739a07ea2203bfe9118aff4affab') in 0.050936 seconds
+  Import took 0.056104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/навигаторы/Выход ВП2 QR Code/info 34.png
+  artifactKey: Guid(6465f72cf0394764f9ee8d9e8af2da83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы/Выход ВП2 QR Code/info 34.png using Guid(6465f72cf0394764f9ee8d9e8af2da83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c9411aacaa64d5c2da47c57d901ba1') in 0.048774 seconds
+  Import took 0.051367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/навигаторы/Выход ВП2 QR Code/info 35.png
+  artifactKey: Guid(69317b1fa92df1a4b9e7805f6bdc01a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы/Выход ВП2 QR Code/info 35.png using Guid(69317b1fa92df1a4b9e7805f6bdc01a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee8f01ecbca2cc1e0df196d6a3a80bbf') in 0.059140 seconds
+  Import took 0.062210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 101.159605 seconds.
+  path: Assets/навигаторы/Выход ВП1 к перекрёстку QR Code
+  artifactKey: Guid(3f23805b49641af4baa168cebb663fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы/Выход ВП1 к перекрёстку QR Code using Guid(3f23805b49641af4baa168cebb663fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c45a3905e9653e05e2baeb4db8f69c9') in 0.002434 seconds
+  Import took 0.005276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.062944 seconds.
+  path: Assets/навигаторы/Выход ВП1 к перекрёстку QR Code/info 58.png
+  artifactKey: Guid(1ba0b9cf20e34594c85ef1993b846b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы/Выход ВП1 к перекрёстку QR Code/info 58.png using Guid(1ba0b9cf20e34594c85ef1993b846b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8e2a213c199f8c0a37a0a6f90f8b335') in 0.045625 seconds
+  Import took 0.048690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/навигаторы/Выход ВП1 к перекрёстку QR Code/info 59.png
+  artifactKey: Guid(882d40fc902684d49a828e315fcddaeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы/Выход ВП1 к перекрёстку QR Code/info 59.png using Guid(882d40fc902684d49a828e315fcddaeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d5b34421c75728a5633fd389c431db4') in 0.047111 seconds
+  Import took 0.049840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/навигаторы/Выход ВП1 к перекрёстку QR Code/info 60.png
+  artifactKey: Guid(2331ec8fcf82c2c4e836336fada49a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы/Выход ВП1 к перекрёстку QR Code/info 60.png using Guid(2331ec8fcf82c2c4e836336fada49a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7861fde10b9260b6dfcf156623cdf1e1') in 0.049801 seconds
+  Import took 0.052398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/навигаторы/Выход ВП1 к перекрёстку QR Code/info 61.png
+  artifactKey: Guid(dc669f913087ac04d9284749e74e1205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы/Выход ВП1 к перекрёстку QR Code/info 61.png using Guid(dc669f913087ac04d9284749e74e1205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29fa4397fd8e41496f708d82f7a8947c') in 0.029613 seconds
+  Import took 0.032367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/навигаторы/Выход ВП1 к перекрёстку QR Code/info 62.png
+  artifactKey: Guid(bef99078442607e48bc809568e9562fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы/Выход ВП1 к перекрёстку QR Code/info 62.png using Guid(bef99078442607e48bc809568e9562fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e3fe83acf85c3fb36b628023aaaa4c7') in 0.047502 seconds
+  Import took 0.050311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/навигаторы/Выход ВП1 к перекрёстку QR Code/info 61.png
+  artifactKey: Guid(dc669f913087ac04d9284749e74e1205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы/Выход ВП1 к перекрёстку QR Code/info 61.png using Guid(dc669f913087ac04d9284749e74e1205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29fa4397fd8e41496f708d82f7a8947c') in 0.028948 seconds
+  Import took 0.031661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 123.478674 seconds.
+  path: Assets/навигаторы/Выход ВП1 к 8 QR Code
+  artifactKey: Guid(ec3e4fea26d38e04481e594f25bd993d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы/Выход ВП1 к 8 QR Code using Guid(ec3e4fea26d38e04481e594f25bd993d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48b55cd94060039ad5e363418dca1698') in 0.002456 seconds
+  Import took 0.005380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000899 seconds.
+  path: Assets/навигаторы/Выход ВП1 к 8 QR Code
+  artifactKey: Guid(ec3e4fea26d38e04481e594f25bd993d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы/Выход ВП1 к 8 QR Code using Guid(ec3e4fea26d38e04481e594f25bd993d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48b55cd94060039ad5e363418dca1698') in 0.002100 seconds
+  Import took 0.004735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066568 seconds.
+  path: Assets/навигаторы/Выход ВП1 к 8 QR Code/info 53.png
+  artifactKey: Guid(654ec82d44ed84145b23e5853de7e5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы/Выход ВП1 к 8 QR Code/info 53.png using Guid(654ec82d44ed84145b23e5853de7e5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef3f32e64c7e7b41f7186e46efc00c01') in 0.046179 seconds
+  Import took 0.049313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/навигаторы/Выход ВП1 к 8 QR Code/info 55.png
+  artifactKey: Guid(a98ecfbc67703084786ac20de82307ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы/Выход ВП1 к 8 QR Code/info 55.png using Guid(a98ecfbc67703084786ac20de82307ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38988e9a071a486ae3a33d947040c75b') in 0.048960 seconds
+  Import took 0.051656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/навигаторы/Выход ВП1 к 8 QR Code/info 54.png
+  artifactKey: Guid(badf4762bce84624481fa3b2ad8371bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы/Выход ВП1 к 8 QR Code/info 54.png using Guid(badf4762bce84624481fa3b2ad8371bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c70ad4913b094123fa72ee60cc02c52d') in 0.047721 seconds
+  Import took 0.050376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/навигаторы/Выход ВП1 к 8 QR Code/info 56.png
+  artifactKey: Guid(74a0c0f8f0e8c46469e2c3ceac0bd943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы/Выход ВП1 к 8 QR Code/info 56.png using Guid(74a0c0f8f0e8c46469e2c3ceac0bd943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f707bebc0308c89325cd66d5f90b313f') in 0.026867 seconds
+  Import took 0.029600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/навигаторы/Выход ВП1 к 8 QR Code/info 57.png
+  artifactKey: Guid(68fa3f59f0b6b7f4b9f539ba90a4d44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы/Выход ВП1 к 8 QR Code/info 57.png using Guid(68fa3f59f0b6b7f4b9f539ba90a4d44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '019c7c0431a2f0df6fbe83d9c6c47481') in 0.048091 seconds
+  Import took 0.050979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/навигаторы/Выход ВП1 к 8 QR Code/info 56.png
+  artifactKey: Guid(74a0c0f8f0e8c46469e2c3ceac0bd943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/навигаторы/Выход ВП1 к 8 QR Code/info 56.png using Guid(74a0c0f8f0e8c46469e2c3ceac0bd943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f707bebc0308c89325cd66d5f90b313f') in 0.029727 seconds
+  Import took 0.032470 seconds .
+
+========================================================================
+Received Prepare
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 9.67 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 41.9 MB.
+System memory in use after: 41.9 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 1906.
+Total: 3.360700 ms (FindLiveObjects: 0.301200 ms CreateObjectMapping: 0.081800 ms MarkObjects: 2.891100 ms  DeleteObjects: 0.085500 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
