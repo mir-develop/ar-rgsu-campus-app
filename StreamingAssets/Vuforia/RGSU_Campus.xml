@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="Exit_VP1_8_QR_Code" size="5.000000 5.000000" />
+    <ImageTarget name="Exit_VP1_cross_QR_Code" size="5.000000 5.000000" />
+    <ImageTarget name="Exit_VP2_QR_Code" size="5.000000 5.000000" />
+    <ImageTarget name="Exit_VP3_QR_Code" size="5.000000 5.000000" />
+    <ImageTarget name="Exit_VP5_QR_Code" size="5.000000 5.000000" />
+    <ImageTarget name="Exit_VP8_QR_Code" size="5.000000 5.000000" />
+    <ImageTarget name="Perekrestok_QR_Code" size="5.000000 5.000000" />
+    <ImageTarget name="KPP_QR_Code" size="5.000000 5.000000" />
+    <ImageTarget name="building2" size="5.000000 3.331250" />
+  </Tracking>
+</QCARConfig>
